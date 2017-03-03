@@ -1,7 +1,7 @@
 # extend
 A vanilla JavaScript equivalent of jQuery's `.extend()` function.
 
-[Download scrollStop](https://github.com/cferdinandi/scrollStop/archive/master.zip)
+[Download extend](https://github.com/cferdinandi/extend/archive/master.zip)
 
 
 ## Getting Started
