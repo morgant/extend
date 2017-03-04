@@ -1,5 +1,5 @@
 # extend
-A vanilla JavaScript equivalent of jQuery's `.extend()` function.
+Merge two or more objects together. A vanilla JavaScript equivalent of jQuery's `.extend()` function.
 
 [Download extend](https://github.com/cferdinandi/extend/archive/master.zip)
 
