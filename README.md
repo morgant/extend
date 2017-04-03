@@ -3,6 +3,12 @@ Merge two or more objects together. A vanilla JavaScript equivalent of jQuery's 
 
 [Download extend](https://github.com/cferdinandi/extend/archive/master.zip)
 
+<hr>
+
+### Want to learn vanilla JavaScript? Check out ["The Vanilla JS Guidebook"](https://gomakethings.com/vanilla-js-guidebook/) and level-up as a web developer. 🚀
+
+<hr>
+
 
 ## Getting Started
 
