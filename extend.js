@@ -1,5 +1,6 @@
 /*! extend.js | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/extend */
 /**
+ * Merge two or more objects together.
  * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]
  * @param {Object}   objects  The objects to merge together
  * @returns {Object}          Merged values of defaults and options
