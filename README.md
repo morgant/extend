@@ -46,6 +46,9 @@ var object3 = {
 // Modify object1 by combining two or more objects into it
 var object1Shallow = extend( object1, object2, object3 );
 var object1Deep = extend( true, object1, object2, object3 );
+
+// Create a new object combining two or more objects into it
+var newObject = extend( {}, object2, object3 );
 ```
 
 
