@@ -1,5 +1,5 @@
 # extend
-Merge two or more objects together. A vanilla JavaScript equivalent of jQuery's `.extend()` function.
+Merge two or more objects together into the first object. A vanilla JavaScript equivalent to [jQuery's `.extend()`](https://api.jquery.com/jquery.extend/) method, retaining the same functionality & method signature.
 
 [Download extend](https://github.com/cferdinandi/extend/archive/master.zip)
 
@@ -43,9 +43,9 @@ var object3 = {
     applePie: true
 };
 
-// Create a new object by combining two or more objects
-var newObjectShallow = extend( object1, object2, object3 );
-var newObjectDeep = extend( true, object1, object2, object3 );
+// Modify object1 by combining two or more objects into it
+var object1Shallow = extend( object1, object2, object3 );
+var object1Deep = extend( true, object1, object2, object3 );
 ```
 
 

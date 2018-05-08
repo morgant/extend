@@ -1,6 +1,6 @@
 /*! extend.js | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/extend */
 /**
- * Merge two or more objects together. Same method signature as jQuery.extend().
+ * Merge two or more objects together into the first object. Same method signature as jQuery.extend().
  * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]
  * @param {Object}   target   The target object to be merged into & modified
  * @param {Object}   objects  The object(s) to merge into the target object
