@@ -1,14 +1,15 @@
 /*! extend.js | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/extend */
 /**
- * Merge two or more objects together.
+ * Merge two or more objects together. Same method signature as jQuery.extend().
  * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]
- * @param {Object}   objects  The objects to merge together
- * @returns {Object}          Merged values of defaults and options
+ * @param {Object}   target   The target object to be merged into & modified
+ * @param {Object}   objects  The object(s) to merge into the target object
+ * @returns {Object}          Target object with merged values from object(s)
  */
 var extend = function () {
 
     // Variables
-    var extended = {};
+    var target;
     var deep = false;
     var i = 0;
     var length = arguments.length;
@@ -19,15 +20,21 @@ var extend = function () {
         i++;
     }
 
+    // Get the target object
+    if ( ( length - i >= 1 ) && ( Object.prototype.toString.call( arguments[i] ) === '[object Object]' ) ) {
+      target = arguments[i];
+      i++;
+    }
+
     // Merge the object into the extended object
     var merge = function ( obj ) {
         for ( var prop in obj ) {
             if ( Object.prototype.hasOwnProperty.call( obj, prop ) ) {
                 // If deep merge and property is an object, merge properties
                 if ( deep && Object.prototype.toString.call(obj[prop]) === '[object Object]' ) {
-                    extended[prop] = extend( true, extended[prop], obj[prop] );
+                    target[prop] = extend( true, target[prop], obj[prop] );
                 } else {
-                    extended[prop] = obj[prop];
+                    target[prop] = obj[prop];
                 }
             }
         }
@@ -39,6 +46,6 @@ var extend = function () {
         merge(obj);
     }
 
-    return extended;
+    return target;
 
 };
