@@ -1,4 +1,4 @@
-/*! extend.js | (c) 2017 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/extend */
+/*! extend.js | (c) 2017 Chris Ferdinandi & (c) 2018 Morgan Aldridge | MIT License | http://github.com/morgant/extend */
 /**
  * Merge two or more objects together into the first object. Same method signature as jQuery.extend().
  * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]

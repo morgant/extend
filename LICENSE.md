@@ -1,6 +1,7 @@
 # The MIT License (MIT)
 
-Copyright (c) Go Make Things, LLC
+Copyright (c) 2018 Morgan T. Aldridge
+Copyright (c) 2017 Go Make Things, LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
