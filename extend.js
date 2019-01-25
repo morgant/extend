@@ -25,6 +25,9 @@ var extend = function () {
       target = arguments[i];
       i++;
     }
+    if ( target === undefined ) {
+      target = {};
+    }
 
     // Merge the object into the extended object
     var merge = function ( obj ) {
